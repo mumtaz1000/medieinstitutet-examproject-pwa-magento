@@ -1,0 +1,19 @@
+{
+  "name": "@extensions/gtm",
+  "version": "1.0.2",
+  "description": "This is a pwa studio magento 2 extension created to sent all products data present in cart to gtm and ga. ",
+  "main": "./lib/components/GTM/index.js",
+  "author": "Mumtaz Fatima",
+  "license": "MIT",
+  "pwa-studio": {
+    "targets": {
+      "intercept": "intercept.js"
+    }
+  },
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "~11.0.0",
+    "@magento/venia-ui": "~9.1.0",
+    "react": "~17.0.2",
+    "react-gtm-module": "~2.0.11"
+  }
+}
