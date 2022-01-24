@@ -1,6 +1,6 @@
 const moduleOverridePlugin = require('./moduleOverrideWebpackPlugin');
 const componentOverrideMapping = {
-    '@magento/venia-ui/lib/components/ProductFullDetail/productFullDetail.js': './lib/overwrites/components/CartPage/productFullDetail.js',
+    '@magento/venia-ui/lib/components/Main/main.js': './lib/overwrites/components/Main/main.js',
 };
 
 module.exports = targets => {
