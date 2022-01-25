@@ -15,20 +15,20 @@ This repo includes final pwa studio project attached with my own magento backend
 
 ###### gtm folder
 .
-├── intercept.js # here we interact directly with Targets        and Targetables to apply customizations.
-├── lib
-│   ├── components
-│   │   └── GTM
-│   │       ├── gtm.js  # a react component for implementing gtm 
-│   │       └── index.js 
-│   └── overwrites
-│       └── components
-│           └── CartPage
-│               └── productFullDetail.js # here we use gtm component
-├── moduleOverrideWebpackPlugin.js # webpack plugin for overriding file
-├── node_modules
-├── package.json # most important file for creating npm package
-└── yarn.lock
+├── intercept.js # here we interact directly with Targets        and Targetables to apply customizations.<br>
+├── lib<br>
+│   ├── components<br>
+│   │   └── GTM<br>
+│   │       ├── gtm.js  # a react component for implementing gtm<br> 
+│   │       └── index.js<br> 
+│   └── overwrites<br>
+│       └── components<br>
+│           └── CartPage<br>
+│               └── productFullDetail.js # here we use gtm component<br>
+├── moduleOverrideWebpackPlugin.js # webpack plugin for overriding file<br>
+├── node_modules<br>
+├── package.json # most important file for creating npm package<br>
+└── yarn.lock<br>
 
 ## Main work done on this project
 In this project I have created a small ecommerce shop with the help of Pwa studio which is a tool to create frontend by using React, webpack, Graphql and upward, and have magento store as backend that is created in php and mysql as a database.
