@@ -21,6 +21,7 @@ const Main = props => {
         <main className={rootClass}>
             <TopBar />
             <GoogleTagManager />
+            
             <Header />
             <div className={pageClass}>{children}</div>
             <Footer />

@@ -129,10 +129,13 @@ const ProductFullDetail = props => {
     }
 
     const cartCallToActionText = !isOutOfStock ? (
+        <>
         <FormattedMessage
             id="productFullDetail.addItemToCart"
             defaultMessage="Add to Cart"
         />
+        <GoogleTagManager name={productDetails} />
+        </>
     ) : (
         <FormattedMessage
             id="productFullDetail.itemOutOfStock"
@@ -161,7 +164,7 @@ const ProductFullDetail = props => {
     return (
         <Fragment>
             {breadcrumbs}
-            <GoogleTagManager name={productDetails} />
+            
             <Form className={classes.root} onSubmit={handleAddToCart}>
                 <section className={classes.title}>
                     <h1 className={classes.productName}>

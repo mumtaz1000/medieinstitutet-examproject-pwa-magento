@@ -1,0 +1,15 @@
+{
+  "name": "tagList",
+  "version": "1.0.0",
+  "description": "A tag list extension for a PWA studio storefront project",
+  "main": "index.js",
+  "author": "Mumtaz Fatima",
+  "license": "MIT",
+  "peerDependencies": {
+    "@apollo/client": "^3.5.8",
+    "@magento/pwa-buildpack": "^11.0.0",
+    "@magento/venia-ui": "^9.1.0",
+    "graphql-tag": "^2.12.6",
+    "react": "^17.0.2"
+  }
+}

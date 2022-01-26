@@ -31,7 +31,7 @@
     "@fooman/venia-ui-override-resolver": "^1.0.0-rc.2",
     "@magento/pwa-buildpack": "~11.0.0",
     "@magento/venia-sample-payments-checkmo": "~0.0.3",
-    "react-gtm-module":"~2.0.11",
+    "react-gtm-module": "~2.0.11",
     "react-modal": "^3.14.4"
   },
   "devDependencies": {

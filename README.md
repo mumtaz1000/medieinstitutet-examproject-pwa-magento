@@ -11,24 +11,24 @@ My main achivement on this project is
  </ol>
 
 ## Folder structure
-.
-├── @extensions     # contains two different extensions code
-├── @mumtaz         # static routing extension 
-├── README.md       # project read me file
-└── magento2        # contains pwa studio frontend code
+.<br>
+├── @extensions     # contains two different extensions code<br>
+├── @mumtaz         # static routing extension<br> 
+├── README.md       # project read me file<br>
+└── magento2        # contains pwa studio frontend code<br>
 
 #### @extensions
-.
-├── gtm             # contains Google Tag manager extension code
-└── top-bar-plugin  # contains Top bar extension code
+.<br>
+├── gtm          # contains Google Tag manager extension code<br>
+└── top-bar-plugin  # contains Top bar extension code<br>
 
 ###### gtm folder
-.
+.<br>
 ├── intercept.js # here we interact directly with Targets        and Targetables to apply customizations.<br>
 ├── lib<br>
 │   ├── components<br>
 │   │   └── GTM<br>
-│   │       ├── gtm.js  # a react component for implementing gtm<br> 
+│   │       ├── gtm.js  # a react component for           implementing gtm<br> 
 │   │       └── index.js<br> 
 │   └── overwrites<br>
 │       └── components<br>
@@ -70,21 +70,21 @@ My main achivement on this project is
 
 #### magento2 
 This folder contains the main project files for pwa studio store front project. A pwa studio is a tool to create our own magento 2 frontend by using React so it includes all project files along with extension installed inside.
-.
-├── README.md
-├── babel.config.js
-├── examproject.code-workspace
-├── local-intercept.js 
-├── node_modules #contains all extensions required for pproject
-├── package.json 
-├── postcss.config.js
-├── prettier.config.js
-├── src #contains overriding files and self created components
-├── tailwind.config.js
-├── template.html
-├── upward.yml
-├── webpack.config.js
-└── yarn.lock
+.<br>
+├── README.md<br>
+├── babel.config.js<br>
+├── examproject.code-workspace<br>
+├── local-intercept.js<br> 
+├── node_modules #contains all extensions required for pproject<br>
+├── package.json<br> 
+├── postcss.config.js<br>
+├── prettier.config.js<br>
+├── src #contains overriding files and self created components<br>
+├── tailwind.config.js<br>
+├── template.html<br>
+├── upward.yml<br>
+├── webpack.config.js<br>
+└── yarn.lock<br>
 
 ## 1. Overriding files like react components and css styling by using Fooman overriding command
 

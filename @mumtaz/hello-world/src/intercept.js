@@ -5,8 +5,14 @@ module.exports = targets => {
     targets.of('@magento/venia-ui').routes.tap(routes => {
         routes.push({
             name: 'Hello World',
-            pattern: '/hello/:name?',
+            pattern: '/hello',
             path: '@mumtaz/hello-world/src/RootComponents/hello-world.js'
-        })
+        });
+        routes.push({
+            name: 'Coming Soon',
+            pattern: '/comingsoon',
+            path: '@mumtaz/hello-world/src/RootComponents/coming-soon.js'
+        });
+        return routes;
     })
 }
