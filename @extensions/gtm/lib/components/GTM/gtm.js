@@ -7,15 +7,19 @@ TagManager.initialize(tagManagerArgs)
 
 const GoogleTagManager = (props) => {
 
-    window.dataLayer.push({
-        event: 'ProductPageView',
-        products: [
-            {
-                name: props.name
-            },
-        ],
-       
-      });
+    console.log(props.page);
+    if(props.name != undefined){
+        window.dataLayer.push({
+            event: 'ProductPageView',
+            products: [
+                {
+                    name: props.name
+                },
+            ],
+           
+          });
+    }
+    
 
 return(
     <h1>Gtm by momo</h1>
