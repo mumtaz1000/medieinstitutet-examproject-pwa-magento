@@ -118,5 +118,7 @@ Fooman overriding plugin is used to override files that exists inside folder mag
         ├── Main # folder containing react component and css files for main that are overrided<br>
         └── TopBar # folder containing react component and css files that are used in main.js<br>
 
-
+#### Resources and Links:
+Pwa studio: https://developer.adobe.com/commerce/pwa-studio
+Fooman overriding plugin: https://github.com/fooman/venia-ui-override-resolver
   
