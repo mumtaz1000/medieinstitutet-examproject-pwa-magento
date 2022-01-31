@@ -1,5 +1,5 @@
  # medieinstitutet-examproject-pwa-magento
-This repo includes final pwa studio frontend project attached with my own magento backend project.
+This repo includes final pwa studio frontend project attached with my own magento backend project (https://github.com/mumtaz1000/medieinstitutet-examproject-magento2.git).
 
 ## Main work done on this project
 In this project I have created a small ecommerce shop with the help of Pwa studio which is a tool to create frontend by using React, webpack, Graphql and upward, and have magento store as backend that is created in php and mysql as a database.
