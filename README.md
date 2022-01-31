@@ -6,7 +6,7 @@ In this project I have created a small ecommerce shop with the help of Pwa studi
 My main achivement on this project is 
 <ol><li><b>Overriding files</b> like react components and css styling by using <b>Fooman overriding command</b></li>
  <li><b>Creating extensions</b> by using <b>npm packages, webpack and react</b> for magento</li>
- <li><b>Creating static route</b> in our project by using <b>Venia-ui targets</b></li>
+ <li><b>Creating static route extension</b> in our project by using <b>Venia-ui targets</b></li>
  <li>Working with <b>Graphql</b> to fetch and update data.</li>
  </ol>
 
@@ -58,6 +58,11 @@ My main achivement on this project is
 └── yarn.lock<br>
 
 #### @mumtaz
+.<br>
+├── hello-world<br>
+└── tagList<br>
+
+###### hello-world folder
 .
 └── hello-world<br>
     ├── node_modules<br>
@@ -67,6 +72,24 @@ My main achivement on this project is
     │   │   └── hello-world.js #react component for routing<br>
     │   └── intercept.js #venia-ui target for static routing<br>
     └── yarn.lock<br>
+
+###### tagList
+.<br>
+├── index.js<br>
+├── package.json<br>
+├── src<br>
+│   ├── TagList<br>
+│   │   ├── index.js<br>
+│   │   ├── tag.css<br>
+│   │   ├── tag.js #React component for showing tag list<br>
+│   │   ├── tagList.css<br>
+│   │   └── tagList.js #React component for showing tag list<br>
+│   ├── hooks<br>
+│   │   └── useProductCategoriesList.js # contains data fetch hook which is a custom React hook that sends a GraphQL query requesting the product categories for a product<br>
+│   └── targets<br>
+│       ├── intercept.js #pwa build-pack targets for css and esmodules flag <br>
+│       └── wrapper.js # wrapper file for the useProductFullDetails() hook that calls the data fetch hook and adds the result to its return value.<br>
+└── yarn.lock
 
 #### magento2 
 This folder contains the main project files for pwa studio store front project. A pwa studio is a tool to create our own magento 2 frontend by using React so it includes all project files along with extension installed inside.
@@ -86,8 +109,14 @@ This folder contains the main project files for pwa studio store front project. 
 ├── webpack.config.js<br>
 └── yarn.lock<br>
 
-## 1. Overriding files like react components and css styling by using Fooman overriding command
-
+## Overriding files like react components and css styling by using Fooman overriding command
+Fooman overriding plugin is used to override files that exists inside folder magento2 -> src -> overrides
+.<br>
+└── venia-ui<br>
+    └── components<br>
+        ├── Footer # folder containing react component and css files for footer that are overrided<br>
+        ├── Main # folder containing react component and css files for main that are overrided<br>
+        └── TopBar # folder containing react component and css files that are used in main.js<br>
 
 
   
