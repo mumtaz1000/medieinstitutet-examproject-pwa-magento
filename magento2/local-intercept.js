@@ -16,7 +16,15 @@
  * with many customizations, this function would tap those targets and add
  * or modify functionality from its dependencies.
  */
+const { ExtendLocalIntercept } = require('@larsroettig/component-targetables');
+function localIntercept(targets) {
+    const { Targetables } = require('@magento/pwa-buildpack');
+    const targetables = Targetables.using(targets);
 
-function localIntercept() {}
+    const extendLocalIntercept = new ExtendLocalIntercept(targetables);
+    extendLocalIntercept.allowCustomTargetables('*.targetables.js',['src/components', 'src/components'], 'node_modules/@magento');
+}
 
 module.exports = localIntercept;
+
+

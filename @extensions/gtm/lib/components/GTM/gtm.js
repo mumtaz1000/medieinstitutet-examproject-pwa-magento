@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import TagManager from 'react-gtm-module'
 
 const tagManagerArgs = {
@@ -6,8 +6,7 @@ const tagManagerArgs = {
 TagManager.initialize(tagManagerArgs)
 
 const GoogleTagManager = (props) => {
-
-    console.log(props.page);
+useEffect(()=>{
     if(props.name != undefined){
         window.dataLayer.push({
             event: 'ProductPageView',
@@ -19,10 +18,10 @@ const GoogleTagManager = (props) => {
            
           });
     }
-    
+},[])
 
 return(
-    <h1>Gtm by momo</h1>
+    <h1></h1>
 )
 }
 export default GoogleTagManager
