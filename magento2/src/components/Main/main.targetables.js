@@ -3,8 +3,11 @@ const TargetableReactComponent = require('@magento/pwa-buildpack/lib/WebpackTool
  *  @param component {TargetableReactComponent}
  */
 const interceptComponent = (component) => {
-    component.addImport('import ComingSoon from "@mumtaz/hello-world/src/RootComponents/coming-soon.js"');
-    component.insertAfterJSX('div', '<ComingSoon />');
+    component.addImport('import Comingsoon from "@mumtaz/hello-world/src/RootComponents/coming-soon.js"');
+    component.addImport('import GoogleTagManager from "@extensions/gtm/lib/components/GTM/gtm.js"')
+    component.insertAfterJSX('Header', '<GoogleTagManager />');
+    component.insertBeforeJSX('div', '<Comingsoon />');
+
    
 }
 
