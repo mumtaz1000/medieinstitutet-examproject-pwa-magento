@@ -28,6 +28,7 @@
     "@magento/venia-drivers": "src/drivers"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
     "@fooman/venia-ui-override-resolver": "^1.0.0-rc.2",
     "@magento/pwa-buildpack": "~11.0.0",
     "@magento/venia-sample-payments-checkmo": "~0.0.3",
@@ -49,6 +50,7 @@
     "@babel/plugin-transform-runtime": "~7.4.4",
     "@babel/preset-env": "~7.3.4",
     "@babel/runtime": "~7.4.2",
+    "@extensions/fullProductDetails": "file:../@extensions/fullProductDetails",
     "@extensions/gtm": "file:../@extensions/gtm",
     "@larsroettig/component-targetables": "*",
     "@magento/babel-preset-peregrine": "~1.1.0",

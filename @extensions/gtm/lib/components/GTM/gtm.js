@@ -12,7 +12,7 @@ useEffect(()=>{
             event: 'ProductPageView',
             products: [
                 {
-                    name: props.name
+                    name: props.name.name
                 },
             ],
            

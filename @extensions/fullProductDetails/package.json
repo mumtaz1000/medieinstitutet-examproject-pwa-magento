@@ -1,0 +1,26 @@
+{
+  "name": "@extensions/fullProductDetails",
+  "version": "1.0.2",
+  "description": "This is a full product details talon extension ",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "src/targets/wrapper.js",
+  "author": "mumtaz",
+  "license": "MIT",
+  "dependencies": {},
+  "peerDependencies": {
+    "@magento/peregrine": "12.2.0",
+    "@magento/pwa-buildpack": "11.1.0",
+    "@magento/venia-ui": "~9.2.0",
+    "apollo-client": "~3.1.2",
+    "graphql-tag": "~2.12.6",
+    "react": "~17.0.2",
+    "webpack": "~5.68.0"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "src/targets/my-intercept"
+    }
+  }
+}
